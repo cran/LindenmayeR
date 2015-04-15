@@ -58,18 +58,26 @@ Lsys <- function(init = NULL, rules = NULL, n = 5,
 			if (verbose > 1L) cat("Processing rule", i, "\n")
 			if (dim(rr[[1]])[1] == 0) {
 				if (verbose > 1L) cat("\tRule", i, "was not needed\n")
+				next
 				}		
 			RR[i] <- rr
 			}
 			
 		# reformat RR into something more useful
-			
+		print(RR)
+		
+		
 		for (i in 1:length(RR)) {
 			tmp <- as.data.frame(RR[i])
-			if (nrow(tmp) == 0) next # empty output as rule didn't apply
+			# if (is.na(tmp[1,1])) {
+				
+				# next # empty output as rule didn't apply
+				# }
 			tmp$insert <- rules[i,2]
 			RR[[i]] <- tmp
 			}
+
+		print(RR)
 		
 		# RR is still a list, unlist to a data frame
 		
