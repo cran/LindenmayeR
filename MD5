@@ -1,9 +1,9 @@
-e30185dbbf2f35d596c478a6905136ec *DESCRIPTION
-da7fd8bccf00a8e2fb2b051c8dec72ad *NAMESPACE
-57a94c5d4184fa51491f5769fde23cf9 *NEWS
+cdc37887d65b5fc6b676ddd3e64dccc4 *DESCRIPTION
+3f4f04e7deb2ba7650756b22b007b443 *NAMESPACE
+402643ca75cedc6dddffaeddd9643c35 *NEWS
 e7bde882eb1e235d456cfb186b397d6c *R/LindenmayeR-package.R
-3dc2d6976b59d2ce8fe701a32e78b996 *R/Lsys.R
-9cb95bd35dfab4bd2401df9a5d865e10 *R/drawLsys.R
-df47d10b0613a501984dc12c68bfaf8e *man/LindenmayeR-package.Rd
-1d323d524fa4088c54d1674202969635 *man/Lsys.Rd
-fb032cadaea4a9e1c5fcff04c881be98 *man/drawLsys.Rd
+f813f593db59249624441bc9e3eab33a *R/Lsys.R
+a65f5714727460208c0762de2814f646 *R/drawLsys.R
+69e36e6d3b5f05cb0434ec8f9a2da0d0 *man/LindenmayeR-package.Rd
+d21e571b69df49a2d02554b0bfaf4483 *man/Lsys.Rd
+e19b946365110af3942fedf860c2c082 *man/drawLsys.Rd
